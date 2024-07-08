@@ -1,0 +1,25 @@
+.error-container {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorBtn {
+    width: 100px;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.errorBtn:hover {
+    background-color: royalblue;
+}
+
+.service-component {
+    border: 1px solid silver;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
