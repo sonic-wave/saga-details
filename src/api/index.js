@@ -1,5 +1,5 @@
 export const searchServices = async (optional = '') => {
-  const url = `https://saga-details-back.onrender.com${optional ? `?${optional}` : ''}`;
+  const url = `https://saga-details-back.onrender.com/api/services${optional ? `?${optional}` : ''}`;
   const response = await fetch(url);
   if (!response.ok) {
     throw new Error(response.statusText);
